@@ -1,0 +1,47 @@
+1st slide
+- Okay lets talk about the fun part.
+- So i will explain the product functions and the way it should be used.
+
+- So this is the main view of our product.
+  As you can see there are three buttons Add, Find and Clear.
+
+- Add Button is to Search and select an image and it will display
+  on the left side area.
+  After clicking the find button, the program will go through all
+  the pictures and display the matching output.
+
+- image name and the path will also displayed 
+  ,So that the user can verify again.
+
+- the edge detection view is to get a better look at the hand gestures. and also for future use
+
+- Clear Button
+
+- Status
+
+-
+
+
+2nd slide
+
+- Now i will explain how this program works.
+
+- So we have used 2-D correlation method to  identify the similarity of the 
+  two images that we are comparing at a time.
+
+- In this given function returns the 2-D correlation coefficient between array
+  s A and B.
+
+- We are giving the images as arrays to those parameters.
+
+- Correlation coefficient, returned as a numeric scalar.
+  Data Types: double
+
+- Correlation coefficient is between 0 and 1. and if it is one it means both images 
+  are identicle
+
+- Problems we are having right now,
+	- We need to have both images in the same resolution.
+	- the correlation limit we put was 0.85
+	- We are also trying to develop the system using edge detection method,
+	  it will be a better way to identify the gestures
